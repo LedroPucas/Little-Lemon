@@ -1,0 +1,137 @@
+.confirmed-container {
+    background-color: #495E57;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.confirmed-content {
+    background-color: white;
+    border-radius: 16px;
+    padding: 3rem;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.success-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin: 0 auto 1.5rem;
+    font-weight: bold;
+}
+
+.confirmed-content h1 {
+    font-family: 'Markazi Text', serif;
+    font-size: 48px;
+    color: #495E57;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.success-message {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.booking-summary-confirmed {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.booking-summary-confirmed h2 {
+    font-family: 'Markazi Text', serif;
+    font-size: 32px;
+    color: #495E57;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-label {
+    font-weight: 500;
+    color: #495E57;
+}
+
+.detail-value {
+    color: #333;
+    text-align: right;
+}
+
+.home-btn {
+    background-color: #F4CE14;
+    color: #333;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-btn:hover {
+    background-color: #e6c213;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+    .confirmed-container {
+        padding: 1rem;
+    }
+
+    .confirmed-content {
+        padding: 2rem 1.5rem;
+    }
+
+    .confirmed-content h1 {
+        font-size: 36px;
+    }
+
+    .success-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 36px;
+    }
+
+    .booking-summary-confirmed {
+        padding: 1.5rem;
+    }
+
+    .detail-row {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .detail-value {
+        text-align: left;
+        font-weight: 600;
+    }
+}
