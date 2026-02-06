@@ -7,11 +7,11 @@ function Nav({ isOpen, onClose }) {
             <button className="close-btn" onClick={onClose} aria-label="Fechar menu">×</button>
             <ul>
                 <li><Link to="/" onClick={onClose}>Home</Link></li>
-                <li><a href="" onClick={onClose}>About</a></li>
-                <li><a href="" onClick={onClose}>Menu</a></li>
+                <li><button onClick={onClose} className="nav-button">About</button></li>
+                <li><button onClick={onClose} className="nav-button">Menu</button></li>
                 <li><Link to="/booking" onClick={onClose}>Reservations</Link></li>
-                <li><a href="" onClick={onClose}>Order Online</a></li>
-                <li><a href="" onClick={onClose}>Login</a></li>
+                <li><button onClick={onClose} className="nav-button">Order Online</button></li>
+                <li><button onClick={onClose} className="nav-button">Login</button></li>
             </ul>
         </nav>
     );

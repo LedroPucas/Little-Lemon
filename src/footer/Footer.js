@@ -1,11 +1,9 @@
 import './footer.css';
 import restaurantImage from '../assets/restaurant.jpg';
-import { useState, useEffect } from 'react';
 
 
 function Footer() {
-
-    const [greet , setGreet] = useState('greet');
+    const greet = 'greet';
 
     
 
