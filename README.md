@@ -6,8 +6,7 @@ Aplicação web moderna para reserva de mesas no restaurante Little Lemon, const
 
 <img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/dc89c5c3-becd-46a6-b2c9-ba371e4b7eb0" />
 <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/1fa8bbdc-a644-48d5-bc0c-5a620493a364" />
-
-###[Clique aqui para testar](https://little-lemon-sage-delta.vercel.app/)
+[Clique aqui para testar](https://little-lemon-sage-delta.vercel.app/)
 
 ## 🌟 Funcionalidades
 
