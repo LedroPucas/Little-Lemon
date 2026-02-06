@@ -2,6 +2,13 @@
 
 Aplicação web moderna para reserva de mesas no restaurante Little Lemon, construída com React e featuring um sistema completo de booking com validação de formulários e processamento de pagamentos.
 
+## 🌟 Imagens reais do projeto:
+
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/dc89c5c3-becd-46a6-b2c9-ba371e4b7eb0" />
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/1fa8bbdc-a644-48d5-bc0c-5a620493a364" />
+
+###[Clique aqui para testar](https://little-lemon-sage-delta.vercel.app/)
+
 ## 🌟 Funcionalidades
 
 - **🏠 Página Inicial** - Apresentação do restaurante com menu e testimonials
@@ -149,5 +156,6 @@ O build será gerado na pasta `build/` com:
 
 
 **⭐ Se este projeto ajudou você, deixe uma estrela!**
+
 
 📧 **Contato**: Para dúvidas ou sugestões, abra uma issue ou envie um e-mail.
