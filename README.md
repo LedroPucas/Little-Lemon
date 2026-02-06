@@ -1,70 +1,178 @@
-# Getting Started with Create React App
+# 🍋 Little Lemon Restaurant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação web moderna para reserva de mesas no restaurante Little Lemon, construída com React e featuring um sistema completo de booking com validação de formulários e processamento de pagamentos.
 
-## Available Scripts
+## 🌟 Funcionalidades
 
-In the project directory, you can run:
+- **🏠 Página Inicial** - Apresentação do restaurante com menu e testimonials
+- **📅 Sistema de Reservas** - Seleção de data e horário disponíveis
+- **👤 Cadastro de Usuários** - Formulário de registro com validação
+- **💳 Processamento de Pagamentos** - Sistema de pagamento seguro com validação de cartão
+- **✅ Confirmação de Reserva** - Página de sucesso com detalhes da reserva
+- **📱 Design Responsivo** - Interface adaptável para todos dispositivos
 
-### `npm start`
+## 🛠️ Stack Tecnológico
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React 19.2.3
+- **Routing**: React Router DOM 7.13.0
+- **Styling**: CSS Modules & CSS3
+- **Build Tool**: Create React App
+- **Testing**: Jest & React Testing Library
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Instalação e Execução
 
-### `npm test`
+### Pré-requisitos
+- Node.js 16+ 
+- npm ou yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Passos para instalação
 
-### `npm run build`
+1. **Clone o repositório**
+```bash
+git clone https://github.com/LedroPucas/Little-Lemon.git
+cd Little-Lemon
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Instale as dependências**
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Inicie o servidor de desenvolvimento**
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Abra no navegador**
+Acesse [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+## 📁 Estrutura do Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+├── components/
+│   ├── header/          # Componente de navegação
+│   ├── main/            # Página principal
+│   ├── footer/          # Rodapé do site
+│   └── bookpage/        # Sistema de reservas
+│       ├── bookpage.js          # Formulário de reserva
+│       ├── SignupPage.js        # Cadastro de usuário
+│       ├── PaymentPage.js       # Processamento de pagamento
+│       └── ConfirmedBooking.js  # Confirmação de reserva
+├── assets/              # Imagens e recursos estáticos
+├── App.js              # Componente principal com rotas
+└── index.js            # Ponto de entrada da aplicação
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎯 Funcionalidades Principais
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Sistema de Reservas
+- **Seleção de Data**: Calendário interativo para escolha da data
+- **Horários Disponíveis**: Lista dinâmica de horários baseada na data
+- **Validação em Tempo Real**: Feedback instantâneo para o usuário
+- **Fluxo Multi-passo**: Processo guiado de reserva → cadastro → pagamento
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Formulários Inteligentes
+- **Validação Client-side**: Verificação de dados antes do envio
+- **Formatação Automática**: Máscaras para número de cartão e data de validade
+- **Tratamento de Erros**: Mensagens claras para correção de problemas
+- **UX Otimizada**: Campos organizados e feedback visual
 
-## Learn More
+### Design Responsivo
+- **Mobile-first**: Design priorizado para dispositivos móveis
+- **Layout Flexível**: Adaptação fluida entre diferentes telas
+- **Navegação Intuitiva**: Menu responsivo com boa usabilidade
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧪 Testes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Executar testes
+```bash
+npm test
+```
 
-### Code Splitting
+### Testes disponíveis
+- Testes unitários para componentes
+- Testes de integração para formulários
+- Testes de acessibilidade (a11y)
+- Coverage de código
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📦 Build para Produção
 
-### Analyzing the Bundle Size
+### Gerar build otimizado
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+O build será gerado na pasta `build/` com:
+- Código minificado e otimizado
+- Hash nos nomes dos arquivos para cache
+- Bundle分割 para melhor performance
 
-### Making a Progressive Web App
+## 🔧 Scripts Disponíveis
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `npm start` - Servidor de desenvolvimento
+- `npm test` - Executar testes em modo watch
+- `npm run build` - Build para produção
+- `npm run eject` - Ejetar configuração (irreversível)
 
-### Advanced Configuration
+## 🎨 Design & UX
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Principais Características
+- **Design Limpo**: Interface moderna e intuitiva
+- **Cores Temáticas**: Paleta baseada na marca Little Lemon
+- **Tipografia**: Fontes legíveis e hierarquia visual clara
+- **Microinterações**: Animações sutis para melhor UX
+- **Acessibilidade**: Suporte a leitores de tela e navegação por teclado
 
-### Deployment
+### Componentes Reutilizáveis
+- Header com navegação responsiva
+- Footer com informações de contato
+- Formulários com validação integrada
+- Cards de menu e testimonials
+- Botões com estados visuais
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🚀 Deploy
 
-### `npm run build` fails to minify
+### Opções de Deploy
+- **Vercel**: `npm install -g vercel` → `vercel`
+- **Netlify**: Arraste a pasta `build/` para o Netlify
+- **GitHub Pages**: Configure GitHub Pages na branch `gh-pages`
+- **Heroku**: Conecte o repositório e configure build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Variáveis de Ambiente
+Crie um arquivo `.env` na raiz:
+```env
+REACT_APP_API_URL=https://your-api.com
+REACT_APP_ENVIRONMENT=production
+```
+
+## 🤝 Contribuição
+
+1. Fork o projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👨‍💻 Autor
+
+**Pedro "LedroPucas"**
+- GitHub: [@LedroPucas](https://github.com/LedroPucas)
+- Projeto: Little Lemon Restaurant Booking System
+
+## 🙏 Agradecimentos
+
+- React Team pela excelente documentação
+- Comunidade de desenvolvedores React
+- Design inspirado em melhores práticas de UX/UI
+- Create React App pelo setup inicial robusto
+
+---
+
+**⭐ Se este projeto ajudou você, deixe uma estrela!**
+
+📧 **Contato**: Para dúvidas ou sugestões, abra uma issue ou envie um e-mail.
