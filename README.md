@@ -131,21 +131,6 @@ O build será gerado na pasta `build/` com:
 - Cards de menu e testimonials
 - Botões com estados visuais
 
-## 🚀 Deploy
-
-### Opções de Deploy
-- **Vercel**: `npm install -g vercel` → `vercel`
-- **Netlify**: Arraste a pasta `build/` para o Netlify
-- **GitHub Pages**: Configure GitHub Pages na branch `gh-pages`
-- **Heroku**: Conecte o repositório e configure build
-
-### Variáveis de Ambiente
-Crie um arquivo `.env` na raiz:
-```env
-REACT_APP_API_URL=https://your-api.com
-REACT_APP_ENVIRONMENT=production
-```
-
 ## 🤝 Contribuição
 
 1. Fork o projeto
