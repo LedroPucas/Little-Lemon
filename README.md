@@ -139,9 +139,6 @@ O build será gerado na pasta `build/` com:
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 👨‍💻 Autor
 
@@ -149,14 +146,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 - GitHub: [@LedroPucas](https://github.com/LedroPucas)
 - Projeto: Little Lemon Restaurant Booking System
 
-## 🙏 Agradecimentos
 
-- React Team pela excelente documentação
-- Comunidade de desenvolvedores React
-- Design inspirado em melhores práticas de UX/UI
-- Create React App pelo setup inicial robusto
-
----
 
 **⭐ Se este projeto ajudou você, deixe uma estrela!**
 
